@@ -18,7 +18,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #09F;
    --text: #DDD;
-   --background: #111;
+   --background: red;/*#111;*/
    --background-elevated: #222;
 
    /* These should be less important: */
@@ -52,6 +52,13 @@ h1, h2, h3, h4 {
    z-index: 1;
 }
 
+span.c-message__body{
+    color: var(--text) !important;
+}
+
+a.c-message__sender_link{
+    color: var(--text) !important;
+}
 
 /* Channel selector */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
