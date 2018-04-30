@@ -92,6 +92,21 @@ div.c-scrollbar__hider::before{
     background-color: var(--background);
 }
 
+div.c-scrollbar__hider{
+    background-color: var(--background);
+}
+
+a.c-member_slug{
+    background-color: #333 !important;
+}
+
+button.c-reaction{
+    background-color: transparent !important;
+    border: #555;
+}
+
+
+
 
 /* Channel selector */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
