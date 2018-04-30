@@ -18,7 +18,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #09F;
    --text: #DDD;
-   --background: #112;
+   --background: #111;
    --background-elevated: #222;
 
    /* These should be less important: */
@@ -67,6 +67,24 @@ a.c-message__sender_link{
 div.c-virtual_list__item{
    background-color: var(--background);
 }
+
+div.c-message--hover{
+    background-color: #181818;
+}
+
+div.c-message_list__day_divider__label__pill{
+    background-color: #333;
+    color: var(--text);
+}
+
+hr.c-message_list__day_divider__line{
+    border-color:#333;
+}
+
+span.c-member__display-name{
+    color: var(--text);
+}
+
 
 /* Channel selector */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
