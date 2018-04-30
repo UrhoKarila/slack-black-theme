@@ -18,7 +18,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #09F;
    --text: #DDD;
-   --background: red;/*#111;*/
+   --background: #112;
    --background-elevated: #222;
 
    /* These should be less important: */
@@ -58,6 +58,14 @@ span.c-message__body{
 
 a.c-message__sender_link{
     color: var(--text) !important;
+}
+
+.c-message_list__day_divider{
+    background-color: var(--background);
+}
+
+div.c-virtual_list__item{
+   background-color: var(--background);
 }
 
 /* Channel selector */
