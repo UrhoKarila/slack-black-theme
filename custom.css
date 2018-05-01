@@ -20,6 +20,7 @@ limitations under the License.
    --text: #DDD;
    --background: #111;
    --background-elevated: #222;
+   --accent: #333;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
@@ -76,12 +77,12 @@ div.c-message:hover{
 }
 
 div.c-message_list__day_divider__label__pill{
-    background-color: #333;
+    background-color: var(--accent);
     color: var(--text);
 }
 
 hr.c-message_list__day_divider__line{
-    border-color:#333;
+    border-color:var(--accent);
 }
 
 span.c-member__display-name{
@@ -102,23 +103,23 @@ div#client_body::before{
 
 /*User mentions*/
 a.c-member_slug{
-    background-color: #333 !important;
+    background-color: var(--accent) !important;
 }
 
 /*Reaction styling*/
 button.c-reaction{
     background-color: transparent !important;
-    border: #555;
+    border: var(--accent);
 }
 
 /*Channel Mentions*/
 span.c-mrkdwn__broadcast{
-    background-color: #333 !important;
+    background-color: var(--accent) !important;
 }
 
 /*Preview text form webpages*/
 span.c-message_attachment__text{
-    color: #777;
+    color: var(--text);
 }
 
 /*Action buttons*/
@@ -137,12 +138,27 @@ button.c-message_actions__button{
 }
 
 button.c-message_actions__button:hover{
-    color: #FFF;
+    color: var(--text-bright);
 }
 
 /*code view*/
 div.c-file_container--gradient::after{
     background-image: linear-gradient(180deg, rgba(34, 34, 34, 0), rgb(34, 34, 34));
+}
+
+/*New convo blindness*/
+div.c-virtual_list__scroll_container{
+    background-color: var(--background);
+}
+
+/*Image background*/
+div.viewer{
+    background-color: var(--background);
+}
+
+/*channel switcher*/
+div.contents_container{
+    background-color: var(--background);
 }
 
 /* Channel selector */
