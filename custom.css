@@ -89,7 +89,7 @@ span.c-member__display-name{
 }
 
 div.c-scrollbar__hider::before{
-    background-color: var(--background);
+    background-color: var(--background) !important;
 }
 
 div.c-scrollbar__hider{
@@ -97,7 +97,7 @@ div.c-scrollbar__hider{
 }
 
 div#client_body::before{
-    background-color: var(--background);
+    background-color: var(--background) !important;
 }
 
 a.c-member_slug{
@@ -114,20 +114,20 @@ span.c-mrkdwn__broadcast{
 }
 
 span.c-message_attachment__text{
-    color: #555;
+    color: #777;
 }
 
 a.c-file__action_button{
-    background-color: var(--background-elevated);
-    color: var(--text);
+    background-color: var(--background-elevated) !important;
+    color: var(--text) !important;
 }
 
-button.c-message__actions_button{
+button.c-message_actions__button{
     background-color: var(--background);
     color: var(--text);
 }
 
-button.c-message__actions_button:hover{
+button.c-message_actions__button:hover{
     color: #FFF;
 }
 
