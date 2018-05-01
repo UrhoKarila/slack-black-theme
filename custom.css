@@ -161,6 +161,11 @@ div.contents_container{
     background-color: var(--background);
 }
 
+/*comment bodies*/
+div.comment_body{
+    color: var(--text);
+}
+
 /* Channel selector */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
 /*nav.p-channel_sidebar {*/
