@@ -96,6 +96,10 @@ div.c-scrollbar__hider{
     background-color: var(--background);
 }
 
+div#client_body::before{
+    background-color: var(--background);
+}
+
 a.c-member_slug{
     background-color: #333 !important;
 }
@@ -105,7 +109,13 @@ button.c-reaction{
     border: #555;
 }
 
+span.c-mrkdwn__broadcast{
+    background-color: #333 !important;
+}
 
+span.c-message_attachment__text{
+    color: #555;
+}
 
 
 /* Channel selector */
