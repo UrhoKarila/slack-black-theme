@@ -93,37 +93,46 @@ div.c-scrollbar__hider::before{
 }
 
 div.c-scrollbar__hider{
-    background-color: var(--background);
+    background-color: var(--background-elevated);
 }
 
 div#client_body::before{
     background-color: var(--background) !important;
 }
 
+/*User mentions*/
 a.c-member_slug{
     background-color: #333 !important;
 }
 
+/*Reaction styling*/
 button.c-reaction{
     background-color: transparent !important;
     border: #555;
 }
 
+/*Channel Mentions*/
 span.c-mrkdwn__broadcast{
     background-color: #333 !important;
 }
 
+/*Preview text form webpages*/
 span.c-message_attachment__text{
     color: #777;
 }
 
+/*Action buttons*/
 a.c-file__action_button{
     background-color: var(--background-elevated) !important;
     color: var(--text) !important;
 }
 
+.c-message_actions__container{
+    background-color: var(--background-elevated);
+}
+
 button.c-message_actions__button{
-    background-color: var(--background);
+    background-color: var(--background-elevated);
     color: var(--text);
 }
 
@@ -131,6 +140,7 @@ button.c-message_actions__button:hover{
     color: #FFF;
 }
 
+/*code view*/
 div.c-file_container--gradient::after{
     background-image: linear-gradient(180deg, rgba(34, 34, 34, 0), rgb(34, 34, 34));
 }
