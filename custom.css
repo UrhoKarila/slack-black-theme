@@ -153,7 +153,14 @@ div.c-virtual_list__scroll_container{
 
 /*Image background*/
 div.viewer{
-    background-color: var(--background);
+    background-color: var(--background) !important;
+}
+
+div.fs_modal_file_viewer_header{
+    background-color: var(--background-elevated);
+}
+h2.title{
+    color: var(--text);
 }
 
 /*channel switcher*/
@@ -164,6 +171,10 @@ div.contents_container{
 /*comment bodies*/
 div.comment_body{
     color: var(--text);
+}
+
+.c-file_container{
+    color: var(--background-elevated);
 }
 
 /* Channel selector */
