@@ -121,6 +121,9 @@ span.c-mrkdwn__broadcast{
 span.c-message_attachment__text{
     color: var(--text);
 }
+div.c-message_attachment__body{
+    color: var(--text);
+}
 
 /*Action buttons*/
 a.c-file__action_button{
@@ -764,3 +767,5 @@ ts-mention.ts_tip:hover
 .p-emoji_picker__group_tab:hover .emoji-sizer {
    color: var(--text);
 }
+
+class="c-message_attachment__body"
