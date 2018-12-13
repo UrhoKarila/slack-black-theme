@@ -768,4 +768,8 @@ ts-mention.ts_tip:hover
    color: var(--text);
 }
 
-class="c-message_attachment__body"
+.c-button-unstyled p-channel_sidebar__jumper{
+    display: block;
+    height: 2em;
+    margin: 0 1em;
+}
