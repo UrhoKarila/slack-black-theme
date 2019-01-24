@@ -186,7 +186,8 @@ span.c-message_kit__text{
 }
 
 div.p-threads_flexpane__header{
-    background-color: var(--background-elevated)
+    background-color: var(--background-elevated);
+    color: var(--text) !important;
 }
 
 div.c-scrollbar__hider{
