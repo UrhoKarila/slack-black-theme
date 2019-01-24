@@ -185,6 +185,30 @@ span.c-message_kit__text{
     color: var(--text);   
 }
 
+div.p-threads_flexpane__header{
+    background-color: var(--background-elevated)
+}
+
+div.c-scrollbar__hider{
+    background-color: var(--background);
+}
+
+span.p-threads_flexpane__separator_count{
+    color: var(--text);
+}
+hr.p-threads_flexpane__separator_line{
+    border-top-color: var(--background-elevated);
+}
+
+div.col_flex{
+    border-color: var(--background-elevated);
+}
+
+/* channel stuff */
+div.channel_page_section{
+    border-color: var(--background-elevated);
+}
+
 /* Channel selector */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
 /*nav.p-channel_sidebar {*/
