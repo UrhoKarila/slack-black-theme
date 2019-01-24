@@ -117,7 +117,7 @@ span.c-mrkdwn__broadcast{
     background-color: var(--accent) !important;
 }
 
-/*Preview text form webpages*/
+/*Preview text from webpages*/
 span.c-message_attachment__text{
     color: var(--text);
 }
@@ -178,6 +178,11 @@ div.comment_body{
 
 .c-file_container{
     color: var(--background-elevated);
+}
+
+/* Threads */
+span.c-message_kit__text{
+    color: var(--text);   
 }
 
 /* Channel selector */
