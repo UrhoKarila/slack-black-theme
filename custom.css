@@ -205,6 +205,21 @@ div.col_flex{
     border-color: var(--background-elevated);
 }
 
+/* All-thread viewer */
+div#threads_msgs_scroller_div, div.day_container, .message_container_item, 
+            div.thread_messages, div.inline_message_input_container.with_file_upload {
+    background: var(--background);
+}
+
+div.message_input{
+    background: var(--background);
+}
+
+ts-message:hover{
+    background: var(--background-elevated);
+}
+
+
 /* channel stuff */
 div.channel_page_section{
     border-color: var(--background-elevated);
