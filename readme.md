@@ -8,6 +8,20 @@ A darker, more contrasty, Slack theme.
 
 # Installing into Slack
 
+The simplest (and hopefully most reliable way) is to 
+
+- clone this to your machine
+- close slack
+- doubleclick `update.bat`
+- open slack
+
+And you're done!
+(maybe)
+
+
+
+##Failing that
+
 Find your Slack's application directory.
 
 * Windows: `%homepath%\AppData\Local\slack\`
